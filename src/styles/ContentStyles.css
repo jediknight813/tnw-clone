@@ -50,20 +50,258 @@
 /* main article css */
 
 .main_articles_container {
-    width: 100%;
+    width: 90%;
+    left: 5%;
     height: 620px;
     display: flex;
-    background-color: tomato;
     position: absolute;
+    justify-content: space-between;
     margin-top: 320px;
+    flex-wrap: wrap;
 }
 
 
+.main_articles_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.article_one {
+    width: 50%;
+    height: 59.5%;
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F01%2FTrump-social-network.jpg&signature=f3b83bcb32ad9f62651ae37fefeabb69");
+    background-color: turquoise;
+    background-position: 50% 10%;
+}
 
 
+.article_one div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient( 180deg ,transparent 0,#000);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 26px;
+}
 
 
+.main_articles_container h1 {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: -3%;
+    font-weight: lighter;
+ }
 
 
+.main_articles_container h1, h2{
+    font-family: TNW Avalon,sans-serif;
+    margin-left: 15px;
+}
+
+.article_two {
+    width: 24.5%;
+    height: 39.5%;
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F01%2Fcatface.jpg&signature=bb8588ea1c54ddeb1f3c91e420daeaa7");
+    background-color: turquoise;
+    background-position: 50% 10%;
+}
+
+.article_two div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient( 180deg ,transparent 0,#000);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 13px;
+}
+
+.article_three {
+    width: 24.5%;
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F01%2FAventon-Soltera.jpg&signature=22e8e39015e69523d284d0cb8daeeee9");
+    height: 39.5%;
+    background-position: 50% 10%;
+    background-color: turquoise;
+}
+
+.article_three div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient( 180deg ,transparent 0,#000);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 13px;
+}
+
+.article_four {
+    width: 50%;
+    height: 39.5%;
+    align-self: flex-end;
+    background-image: url("https://agustingramajo.com/TNW-ResponsivePractise/Assets/images/homeAdvert.jpg");
+    background-color: turquoise;
+    background-position: 50% 10%;
+    font-family: TNW Avalon,sans-serif;
+}
+
+.article_four div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 13px;
+}
+
+.article_four div h3{
+    margin-top: -21px;
+    font-size: 24px;
+}
+
+.article_four div button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    margin-top: -18px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 14px;
+    font-weight: lighter;
+}
 
 
+.article_five {
+    width: 49.5%;
+    align-self: flex-end;
+    height: 59.5%;
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F01%2Fheader-image-cryptoland-crypto-island-cryptocurrency.jpg&signature=77da7b4811fe84fa22fa256f07c49f7f");
+    background-color: turquoise;
+    align-self: flex-start; 
+    margin-top: -118px;
+    background-position: 50% 10%;
+}
+
+.article_five div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient( 180deg ,transparent 0,#000);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 26px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .main_articles_container {
+        height: 750px;
+    }
+    .article_one {
+        width: 100%;
+        height: 49%;
+        margin-bottom: 5px;
+    }
+
+    .article_two {
+        width: 49.5%;
+        height: 24%;
+    }
+
+    .article_three {
+        width: 49.5%;
+        height: 24%;
+    }
+
+    .article_four {
+        width: 49.5%;
+        height: 24%;
+    }
+
+    .article_four div h3{
+        font-size: 17px;
+    }
+    .article_four div button{
+        margin-top: 0px;
+    }
+
+    .article_five {
+        width: 49.5%;
+        height: 24%;
+        margin-top: 0px;
+        align-self: flex-end;
+    }
+
+    .article_five div h2{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 764px) {
+
+    .main_articles_container {
+        overflow-x: auto;
+        height: 530px;
+        align-items: center;
+        display: flex;
+        flex-flow:row;  
+        overflow-y: hidden;
+    }
+
+    /*
+    .main_articles_container::-webkit-scrollbar {    display: none;}
+    */
+
+    .article_one {
+        width: 100%;
+        height: 100%;
+        margin-right: 8px;
+        flex-shrink: 0
+    }
+
+    .article_two {
+        width: 100%;
+        height: 100%;
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+    .article_three {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        margin-right: 8px;
+    }
+
+    .article_four {
+        width: 100%;
+        height: 100%;
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+    .article_five {
+        width: 100%;
+        height: 100%;
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+}
