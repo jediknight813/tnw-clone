@@ -1,0 +1,161 @@
+* {
+    left: 0%;
+    top: 0%;
+}
+
+
+.header_container {
+    padding-top: 12x;
+    top: 0%;
+    z-index: 10;
+    left: 0%;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(249, 242, 242);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_for_page{
+    width: 60px;
+    margin-top: 19px;
+    margin-left: 1.3%;
+    cursor: pointer;
+}
+
+
+.Header_buttons {
+    margin-top: -33px;
+    width: 650px;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.Header_buttons i{
+   margin-top: 24px;
+   color: #505666;
+}
+
+.Header_buttons i:hover{
+    color: black;
+    transition: linear 0.2s;
+}
+
+.Header_buttons div:hover{
+    background-color: white;
+}
+
+
+.header_drop_down_buttons {
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+}
+
+.header_drop_down_buttons h1{
+    margin-top: 1px;
+}
+
+.header_drop_down_buttons i{
+    margin-top: 14px;
+}
+
+
+.Header_buttons h1{
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: Shentox,sans-serif;
+    letter-spacing: .08em;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: #505666;
+    line-height: 45px;
+    padding-top: 0.1875rem;
+}
+
+.Header_buttons h1:hover{
+    transition: linear 0.2s;
+    color: black;
+    background-color: white;
+}
+
+.header_inbox {
+    height: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+    width: 20px;
+    margin-top: -38px;
+    margin-right: 1.5%;
+}
+
+.header_inbox:hover{
+    transition: linear 0.5s;
+    filter: brightness(0%);
+}
+
+.ad_container{
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
+    color: #000;
+    background: #fd3;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-top: 50px;
+    position: fixed;
+    font-family: Shentox,sans-serif;
+    font-size: 14px;
+}
+
+.ad_container div{
+    display: flex;
+    margin-left: 14px;
+    color: #171616;
+    font-weight: lighter;
+}
+
+.mobile_menu_grid {
+    display: block;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile_menu_grid {
+        visibility: visible;
+        width: 10px;
+        height: 20px;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 15px;
+        filter: invert(67%) sepia(3%) saturate(516%) hue-rotate(186deg) brightness(101%) contrast(93%);
+    }
+
+    .Header_buttons{
+        display: none;
+        visibility: hidden;
+    }
+    .ad_container{
+        visibility: hidden;
+        display: none;
+    }
+    .header_inbox{
+        margin-top: -15px;
+    }
+    .logo_for_page{
+        filter: invert(67%) sepia(3%) saturate(516%) hue-rotate(186deg) brightness(101%) contrast(93%);
+        margin-left: 44px;
+    }
+    .logo_for_page:hover{
+        transition: linear 1s;
+        filter: brightness(0%);
+    }
+
+  }
