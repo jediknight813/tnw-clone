@@ -714,3 +714,119 @@
 
 /* sign up to newsletter css  */
 
+.newsletter_container {
+    width: 100%;
+    position: absolute;
+    height: 360px;
+    top: 2840px;
+    background-image: url(https://next.tnwcdn.com/assets/next/img/spacesbg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.newsletter_column_container {
+    height: 210px;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter_column_container h1{
+    font-family: TNW Avalon,sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.newsletter_column_container h2 {
+    font-family: TNW Avalon,sans-serif;
+    font-weight: lighter;
+    margin-top: -20px;
+    font-size: 17px;
+    color: white;
+}
+
+.newsletter_column_container h2 a{
+    color: #0cc;
+}
+
+
+.newsletter_enter_email_container {
+    display: flex;
+    width: 100%;
+}
+
+.newsletter_enter_email_container input{
+    width: 73%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.newsletter_enter_email_container button{
+    width: 20%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #cc0099;
+    color: white;
+}
+
+.newsletter_enter_email_container img{
+    width: 10%;
+    height: 20px;
+    padding: 2%;
+    width: 20px;
+    border: none;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.newsletter_media_icons {
+    width: 35%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    cursor: pointer;
+    color: #808080;
+}
+
+.newsletter_media_icons i:hover{
+    color: white;
+    transition: linear 0.2s;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .newsletter_container {
+        top: 3740px;
+    }       
+
+}
+
+
+@media only screen and (max-width: 764px) {
+
+    .newsletter_container {
+        top: 4080px;
+    } 
+
+    .newsletter_column_container h1{
+        font-size: 25px;
+    }
+
+    .newsletter_column_container h2{
+        font-size: 12px;
+    }
+
+}
