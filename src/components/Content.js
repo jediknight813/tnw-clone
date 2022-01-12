@@ -296,7 +296,115 @@ function Content() {
             </div>
 
 
-            <h1 style={{postion: "absoulte", marginTop: "4200px"}}> down here </h1>    
+
+            <div className="video_ad_container">
+
+                <div className="video_ad_column_contaner">
+                    <h1> Watch what we made you </h1>
+
+                    <div className="video_ad_flexbox_contaner">
+
+                        <div className="video_ad_big_video_container">
+                            
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S1-wuoFsdT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+
+                        <div className="video_ad_sidebar_column_container">
+
+                            <div className="video_ad_sidebar_column_container_item">
+
+                                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/S1-wuoFsdT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3>Nothing Ear (1) review: Style… and substance?</h3>
+
+                            </div>
+
+                            <div className="video_ad_sidebar_column_container_item">
+                                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/kIie5LVh7NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3>What size iPad Pro should you buy?</h3>
+                            </div>
+
+                            <div className="video_ad_sidebar_column_container_item">
+                                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/3Gpmto2eoro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3>Apple AirTags review: The Find My revolution</h3>
+                            </div>
+
+                            <div className="video_ad_sidebar_column_container_item">
+                                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/UAu4d0K99Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3> Sonos Roam review: Smart speaker, smarter business </h3>
+                            </div>
+
+                            <div className="video_ad_sidebar_column_container_item">
+                                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/0OXyJygPSRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3>Learning guitar is better than meditation</h3>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            
+            <div className="work_with_us_ad_parent_container">
+                
+                <div className="work_with_us_ad_flexbox_container">
+
+                    <div className="work_with_us_ad_text">
+                        <h1> REACH YOUR GOALS </h1>
+                        <h2>Work with us</h2>
+                        <h3>TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively, innovate your business, and position your brand in front of a digital-savvy audience?</h3>
+                        <button>GET IN TOUCH</button>
+                    </div>
+
+                    <div className="work_with_us_ad_media_icons">
+
+                        <div className="work_with_us_ad_media_icons_item">
+                            <img alt="Pen" src="https://s3.amazonaws.com/events.tnw/hardfork-2018/uploads/visuals/pillar-media.svg" />
+                            <h1>Media</h1>
+                        </div>
+
+                        <div className="work_with_us_ad_media_icons_item">
+                            <img alt="mic" src="https://s3.amazonaws.com/events.tnw/hardfork-2018/uploads/companies/pillar-events.svg" />
+                            <h1>Events</h1>
+                        </div>
+
+                        <div className="work_with_us_ad_media_icons_item">
+                            <img alt="lamp" src="https://s3.amazonaws.com/events.tnw/hardfork-2018/uploads/visuals/pillar-spaces.svg" />
+                            <h1>Spaces</h1>
+                        </div>
+
+                        <div className="work_with_us_ad_media_icons_item">
+                            <img alt="suitcase" src="https://s3.amazonaws.com/events.tnw/hardfork-2018/uploads/companies/pillar-programs.svg" />
+                            <h1>Programs</h1>
+                        </div>
+
+                    </div>
+
+                    <div className="work_with_us_ad_companies_icons">
+
+                        <img alt="Google icon" src="https://next.tnwcdn.com/assets/next/img/partners/google.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/etoro.svg"/>
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/ibm.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/microsoft.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/paypal.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/vodafone.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/accenture.svg" />
+                        <img alt="companies" src="https://next.tnwcdn.com/assets/next/img/partners/mckinsey-company.svg" />
+                    
+                    </div>
+
+
+                </div>
+            
+            </div>
+
+
+            <h1 style={{postion: "absoulte", marginTop: "8200px"}}> down here </h1>    
         </div>
     )
 }

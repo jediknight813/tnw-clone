@@ -830,3 +830,328 @@
     }
 
 }
+
+
+/* video ad container css */
+
+.video_ad_container {
+    background-color: rgb(249, 245, 245);
+    width: 100%;
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 3200px;
+}
+
+.video_ad_column_contaner {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+
+}
+
+.video_ad_column_contaner h1{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    margin-top: -4px;
+    border-top: -4px;
+    font-family: TNW Avalon,sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.video_ad_flexbox_contaner {
+    margin-top: 40px;
+    width: 100%;
+    height: 87.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video_ad_big_video_container {
+    width: 75%;
+    height: 100%;
+}
+
+.video_ad_sidebar_column_container {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.video_ad_sidebar_column_container_item {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.video_ad_sidebar_column_container_item h3{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .video_ad_container {
+        top: 900px;
+    }
+
+    .video_ad_column_contaner {
+        height: 580px;
+        width: 90%;
+    }
+
+    .video_ad_big_video_container {
+        width: 73%;
+    }
+
+    .video_ad_sidebar_column_container {
+        min-width: 220px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 764px) {
+    .video_ad_container {
+        top: 1240px;
+    }
+
+    .video_ad_column_contaner {
+        height: 800px;
+        width: 90%;
+    }
+
+    .video_ad_flexbox_contaner {
+        flex-wrap: wrap;
+    }
+
+    .video_ad_big_video_container {
+        width: 100%;
+        height: 70%;
+    }
+
+    .video_ad_sidebar_column_container {
+        margin-top: 18px;
+        height: 28%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .video_ad_sidebar_column_container_item{
+        margin-right: 10px;
+        min-width: 200px;
+    }
+
+}
+
+/* work with us ad css */
+
+.work_with_us_ad_parent_container {
+    width: 100%;
+    height: 610px;
+    position: absolute;
+    margin-top: 4170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_with_us_ad_flexbox_container {
+    height: 70%;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work_with_us_ad_text {
+    height: 340px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work_with_us_ad_text h1{
+    color: #c09;
+    font-family: Shentox,sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.work_with_us_ad_text h2{
+    font-family: TNW Avalon,sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.work_with_us_ad_text h3{
+    color: #505666;
+    font-family: Graphik,sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.work_with_us_ad_text button {
+    margin-left: 15px;
+    width: 18%;
+    min-width: 150px;
+    height: 50px;
+    font-family: Graphik,sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #0cc;
+}
+
+.work_with_us_ad_text button:hover{
+    background-color: rgba(0, 204, 204, 0.851);
+}
+
+
+.work_with_us_ad_media_icons {
+    height: 340px;
+    width: 48%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work_with_us_ad_media_icons_item {
+    width: 49%;
+    height: 49%;
+    display: flex;
+    align-items: center;
+}
+
+.work_with_us_ad_media_icons_item img {
+    width: 35%;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+
+.work_with_us_ad_media_icons_item h1{
+    font-family: Graphik,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.work_with_us_ad_companies_icons {
+    width: 100%;
+    height: 15%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.work_with_us_ad_companies_icons img{
+    filter: brightness(0%);
+    flex: 1;
+    height: 120%;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .work_with_us_ad_parent_container{
+        top: 910px;
+        height: 1050px;
+    }
+    .work_with_us_ad_companies_icons {
+        flex-wrap: wrap;
+    }
+
+    .work_with_us_ad_companies_icons img{
+        filter: brightness(0%);
+        flex: 1;
+        height: 50%;
+        margin-top: -50px;
+    }
+
+    .work_with_us_ad_companies_icons {
+        height: 380px;
+    }
+
+    .work_with_us_ad_flexbox_container {
+        height: 80%;
+    }
+
+    .work_with_us_ad_text {
+        height: 420px;
+    }
+
+    .work_with_us_ad_media_icons_item {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .work_with_us_ad_media_icons_item img{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    .work_with_us_ad_media_icons {
+        height: 420px;
+    }
+
+}
+
+@media only screen and (max-width: 764px) {
+    .work_with_us_ad_flexbox_container{
+        flex-direction: column;
+    }
+
+    .work_with_us_ad_companies_icons img{
+        height: 32%;
+    }
+
+
+    .work_with_us_ad_text {
+        width: 100%;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .work_with_us_ad_media_icons {
+        width: 100%;
+    }
+
+    .work_with_us_ad_media_icons img{
+        width: 30%;
+    }
+
+    .work_with_us_ad_companies_icons {
+        height: 628px;
+        width: 100%;
+    }
+
+    .work_with_us_ad_parent_container{
+        height: 1670px;
+        top: 1150px;
+    }
+
+}
