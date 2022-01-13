@@ -99,7 +99,7 @@
     filter: brightness(0%);
 }
 
-.ad_container{
+.Conference_container{
     z-index: 10;
     width: 100%;
     box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
@@ -115,7 +115,7 @@
     font-size: 14px;
 }
 
-.ad_container div{
+.Conference_container div{
     display: flex;
     margin-left: 14px;
     color: #171616;
@@ -142,7 +142,7 @@
         display: none;
         visibility: hidden;
     }
-    .ad_container{
+    .Conference_container{
         visibility: hidden;
         display: none;
     }

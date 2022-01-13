@@ -2,11 +2,10 @@ import React from "react";
 import '../styles/HeaderStyles.css'
 
 
-function Ad(){
-
+function HeaderConference(){
 
     return(
-        <div className="ad_container">
+        <div className="Conference_container">
             <div>
                 Join us at TNW Conference 2022 for insights into the future of tech <i style={{fontSize: "17px", marginLeft: "4px"}} class="material-icons">arrow_forward</i>
             </div>
@@ -15,4 +14,4 @@ function Ad(){
 }
 
 
-export default Ad
+export default HeaderConference
