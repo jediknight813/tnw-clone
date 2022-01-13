@@ -231,27 +231,27 @@ function Content() {
                     <div className="explore_our_channels_flexbox_container" >
 
 
-                        <div className="explore_our_channels_flexbox_container_item" style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=4423a77a45ff6281a089424a8dd0bc24)'}} className="explore_our_channels_flexbox_container_item">
+                        <div className="explore_our_channels_flexbox_container_item" style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=4423a77a45ff6281a089424a8dd0bc24)'}}>
                             <img alt="channel 1" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/plugged.svg"/>
                             <h1> Your sardonic source for consumer tech stories</h1>
                         </div>
 
-                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-neural.jpg&signature=7b20700b0f58af3860449664ae1a5e68)'}} className="explore_our_channels_flexbox_container_item">
+                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-neural.jpg&signature=7b20700b0f58af3860449664ae1a5e68)'}}>
                             <img alt="channel 2" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/neural.svg"/>
                             <h1> Human-centric AI news and analysis </h1>
                         </div>
 
-                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-shift.jpg&signature=1d3ef28f5220f870b7e289810caa80a3)'}} className="explore_our_channels_flexbox_container_item">
+                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-shift.jpg&signature=1d3ef28f5220f870b7e289810caa80a3)'}}>
                             <img alt="channel 3" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/shift.svg"/>
                             <h1> Driving the future of sustainable mobility </h1>
                         </div>
 
-                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-growth-quarters.jpg&signature=72ccfd9e92f942be8ace3526d0dc3aab)'}} className="explore_our_channels_flexbox_container_item">
+                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-growth-quarters.jpg&signature=72ccfd9e92f942be8ace3526d0dc3aab)'}}>
                             <img alt="channel 4" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/growth-quarters.svg"/>
                             <h1> No-nonsense perspectives on startup growth</h1>
                         </div>
 
-                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=77d9941cfc302cb2e25c39ab3043fa7b)'}} className="explore_our_channels_flexbox_container_item">
+                        <div className="explore_our_channels_flexbox_container_item"  style={{backgroundImage: 'url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=77d9941cfc302cb2e25c39ab3043fa7b)'}}>
                             <img alt="channel 5" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/hardfork.svg"/>
                             <h1> Inside money, markets, and Big Tech</h1>
                         </div>
