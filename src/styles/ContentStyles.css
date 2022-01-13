@@ -1069,6 +1069,12 @@
     filter: brightness(0%);
     flex: 1;
     height: 120%;
+    opacity: 60%;
+}
+
+.work_with_us_ad_companies_icons img:hover{
+    opacity: 100%;
+    transition: linear 0.4s;
 }
 
 
@@ -1086,7 +1092,7 @@
     .work_with_us_ad_companies_icons img{
         filter: brightness(0%);
         flex: 1;
-        height: 50%;
+        height: 44%;
         margin-top: -50px;
     }
 
@@ -1124,7 +1130,7 @@
     }
 
     .work_with_us_ad_companies_icons img{
-        height: 32%;
+        height: 25%;
     }
 
 

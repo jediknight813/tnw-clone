@@ -404,7 +404,6 @@ function Content() {
             </div>
 
 
-            <h1 style={{postion: "absoulte", marginTop: "8200px"}}> down here </h1>    
         </div>
     )
 }
