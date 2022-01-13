@@ -6,6 +6,7 @@
     display: flex;
     top: 4740px;
     flex-wrap: wrap;
+    padding-bottom: 12px;
 }
 
 .site_logo_and_media_links_parent_container {
@@ -101,13 +102,17 @@
     height: 30%;
     width: 100%;
     display: flex;
-    border-top: solid rgba(255, 255, 255, 0.797) 1px;
+    border-top: solid rgba(255, 255, 255, 0.434) 1px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: #505666;
     font-family: sans-serif;
-    font-size: 6px;
+    font-size: 7px;
+}
+
+.footer_bottom_copyright_text_parent_container b{
+    color: white;
 }
 
 .footer_bottom_copyright_text_parent_container h1{
