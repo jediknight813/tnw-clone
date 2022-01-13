@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tnw-clone/static/css/main.a0a7703a.css",
+    "main.js": "/tnw-clone/static/js/main.8020877c.js",
+    "index.html": "/tnw-clone/index.html",
+    "main.a0a7703a.css.map": "/tnw-clone/static/css/main.a0a7703a.css.map",
+    "main.8020877c.js.map": "/tnw-clone/static/js/main.8020877c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0a7703a.css",
+    "static/js/main.8020877c.js"
+  ]
+}
