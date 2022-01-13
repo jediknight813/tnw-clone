@@ -1,4 +1,6 @@
-a copy of the TNW website made for the odin project, made using React.
+a copy of the TNW website made for the odin project.
+
+was created with React.
 
 a link to the odin project: https://www.theodinproject.com/
 
