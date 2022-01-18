@@ -6,7 +6,7 @@ a link to the odin project: https://www.theodinproject.com/
 
 a link to TNW: https://thenextweb.com/
 
-a link to the website i made:
+a link to the website i made: https://jediknight813.github.io/tnw-clone/
 
 computer view
 
